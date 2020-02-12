@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./../style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+
+    <style>
+        #leaders img.alt {
+            border: 2px solid #CBCBCC;
+            padding: 0px;
+        }
+
+        #leaders img {
+            /* HxW = 13x12 */
+            height: 104px;
+            width: 96px;
+        }
+
+        @media (min-width: 576px) {
+            #leaders img {
+                height: 130px;
+                width: 120px;
+            }
+        }
+
+        @media (min-width: 768px) {
+            #leaders img {
+                height: 143px;
+                width: 132px;
+            }
+        }
+
+        @media (min-width: 992px) {
+            #leaders img {
+                height: 169px;
+                width: 156px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+            #leaders img {
+                height: 195px;
+                width: 180px;
+            }
+        }
+    </style>
+
+    <div id="leaders" class="container-lg white">
+        <div class="row">
+            <div class="col-12">
+                <h2>Ведущие</h2>
+                <p>Уникальная международная команда тренеров</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="img-wrap d-flex justify-content-center justify-content-sm-start">
+                    <img src="./leader/01.jpeg" class="alt" alt="Наталья Олифирович">
+                    <img src="./leader/02.jpeg" class="alt" alt="Даниил Хломов">
+                    <img src="./leader/03.jpeg" class="alt" alt="Екатерина Скуратович">
+                    <img src="./leader/04.jpeg" class="alt" alt="Алёна Воскресенская">
+                    <img src="./leader/05.jpeg" class="alt" alt="Геннадий Малейчук">
+                    <img src="./leader/06.jpeg" class="alt" alt="Бригита Калецкайте">
+                    <img src="./leader/07.jpeg" class="alt" alt="Милена Меерович">
+                    <img src="./leader/08.jpeg" class="alt" alt="Сергей Мартыненко">
+                    <img src="./leader/09.jpeg" class="alt" alt="Татьяна Велента-Гринина">
+                    <img src="./leader/10.jpeg" class="alt" alt="Ольга Рябцева">
+                    <img src="./leader/11.jpeg" class="alt" alt="Александр Тымонюк">
+                    <img src="./leader/12.jpeg" class="alt" alt="Наталья Жукова">
+                    <img src="./leader/13.jpeg" class="alt" alt="Ирина Медведева">
+                    <img src="./leader/14.jpeg" class="alt" alt="Руслан Синиченко">
+                    <img src="./leader/15.jpeg" class="alt" alt="Татьяна Староселец">
+                    <img src="./leader/16.jpeg" class="alt" alt="Анастасия Шапель">
+                    <img src="./leader/17.jpeg" class="alt" alt="Сергей Жеребцов">
+                    <img src="./leader/18.jpeg" class="alt" alt="Анастасия Гонта">
+                    <img src="./leader/19.jpeg" class="alt" alt="Мария Абдурагимова">
+                    <img src="./leader/20.jpeg" class="alt" alt="Максим Пылёв">
+                    <img src="./leader/21.jpeg" class="alt" alt="Елена Палюшик">
+                    <img src="./leader/22.jpeg" class="alt" alt="Татьяна Титюнова">
+                    <img src="./leader/23.jpeg" class="alt" alt="Александр Литвинович">
+                    <img src="./leader/24.jpeg" class="alt" alt="Ирина Сукач">
+                    <img src="./leader/25.jpeg" class="alt" alt="Марина Прохорова">
+                    <img src="./leader/26.jpeg" class="alt" alt="Константин Петров">
+                    <img src="./leader/27.jpeg" class="alt" alt="Анастасия Боровая">
+                    <img src="./leader/28.jpeg" class="alt" alt="Ольга Корчемкина">
+                    <img src="./leader/29.jpeg" class="alt" alt="Гинтарас Бирута">
+                    <img src="./leader/30.jpeg" class="alt" alt="Ольга Добровольская">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .img-wrap {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .img {
+            display: block;
+        }
+
+        .alt-wrap {
+            display: block;
+            position: relative;
+        }
+
+        .alt-wrap p.alt {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #FFF;
+            position: absolute;
+            opacity: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: 2px;
+            padding: 8px;
+            font-size: 14px;
+            line-height: 22px;
+            transition: all 300ms ease;
+            transition-delay: 300ms;
+        }
+
+        .alt-wrap:hover>p.alt {
+            opacity: 1;
+            transition-delay: 0s;
+        }
+
+        @media (min-width: 992px) {
+            .alt-wrap p.alt {
+                font-size: 1.425rem !important;
+                padding: 15px !important;
+            }
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(".alt").wrap('<div class="alt-wrap"/>');
+        $(".alt").each(function () {
+            $(this).after('<p class="alt font-bold">' + $(this).attr('alt') + '</p>');
+        });
+    </script>
+
+</body>
+
+</html>

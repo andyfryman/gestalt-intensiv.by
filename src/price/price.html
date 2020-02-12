@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./../style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+    <style>
+        #price .ticket {
+            background-color: #F3CA3E;
+            border-radius: 10px;
+            margin-top: 15px;
+            margin-bottom: 30px;
+            max-width: 165px;
+            text-align: center;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+            transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+        }
+
+        #price .ticket.sold {
+            filter: grayscale(1);
+        }
+
+        #price .ticket:hover {
+            cursor: pointer;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+
+        #price .ticket.sold:hover {
+            box-shadow: none;
+        }
+
+        #price a {
+            color: #262626;
+        }
+
+        #price a:hover {
+            text-decoration: none;
+        }
+
+        #price .cost {
+            padding-top: 16px;
+            font-size: 1.87em;
+            margin-bottom: 0;
+        }
+
+        #price .currency {
+            font-size: 0.87em;
+            margin-bottom: -4px;
+        }
+
+        #price .date {
+            padding-top: 8px;
+            font-size: 1.25em;
+        }
+    </style>
+    <div id="price" class="container-lg gray">
+        <div class="row">
+            <div class="col-12">
+                <h2>Стоимость</h2>
+            </div>
+        </div>
+        <div class="row justify-content-around">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block ticket" data-date="2020-02-01">
+                <a href="#register">
+                    <p class="cost font-regular font-black">250$</p>
+                    <p class="currency">в бел. рублях</p>
+                    <p class="currency">по курсу на день</p>
+                    <p class="currency">оплаты</p>
+                    <p class="date font-regular font-black">До 01.02</p>
+                </a>
+            </div>
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-md-block ticket" data-date="2020-03-15">
+                <a href="#register">
+                    <p class="cost font-regular font-black">275$</p>
+                    <p class="currency">в бел. рублях</p>
+                    <p class="currency">по курсу на день</p>
+                    <p class="currency">оплаты</p>
+                    <p class="date font-regular font-black">До 15.03</p>
+                </a>
+            </div>
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2020-06-01">
+                <a href="#register">
+                    <p class="cost font-regular font-black">300$</p>
+                    <p class="currency">в бел. рублях</p>
+                    <p class="currency">по курсу на день</p>
+                    <p class="currency">оплаты</p>
+                    <p class="date font-regular font-black">До 01.06</p>
+                </a>
+            </div>
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-sm-block ticket" data-date="2020-07-01">
+                <a href="#register">
+                    <p class="cost font-regular font-black">325$</p>
+                    <p class="currency">в бел. рублях</p>
+                    <p class="currency">по курсу на день</p>
+                    <p class="currency">оплаты</p>
+                    <p class="date font-regular font-black">До 01.07</p>
+                </a>
+            </div>
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2020-07-12">
+                <a href="#register">
+                    <p class="cost font-regular font-black">350$</p>
+                    <p class="currency">в бел. рублях</p>
+                    <p class="currency">по курсу на день</p>
+                    <p class="currency">оплаты</p>
+                    <p class="date font-regular font-black">На месте</p>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>* Проживание оплачивается отдельно, популярные варианты представлены ниже.</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(".ticket[data-date]")
+            .filter(function () {
+                var data = $(this).data("date");
+                return +(new Date(data)) <= +(new Date());
+            })
+            .addClass('sold');
+    </script>
+
+</body>
+
+</html>

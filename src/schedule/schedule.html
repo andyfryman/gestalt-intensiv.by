@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./../style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+
+    <style>
+        #schedule h4 {
+            font-weight: 800;
+            font-size: 34px;
+            color: white;
+        }
+
+        /*
+        #schedule .col-12 p {
+            margin-top: 10px;
+            margin-bottom: 27px;
+        }
+*/
+        ul,
+        ol {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-align: center;
+        }
+
+        li {
+            border-color: #999;
+            border-style: solid;
+            border-width: 1px;
+            width: 45px;
+            height: 45px;
+
+            font-size: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            font-family: "HelveticaNeue-CondensedBlack", "Helvetica Neue", sans-serif;
+        }
+
+        #schedule ul {
+            width: 45px;
+            height: 45px;
+            float: right;
+            margin-right: 14px;
+        }
+
+        .col-10 {
+            border-color: #666;
+            border-style: solid;
+            border-width: 2px;
+            padding: 30px 15px;
+        }
+
+        /*
+        #schedule .row {
+            padding-left: 20px;
+            padding-bottom: 0;
+        }
+*/
+        #schedule a {
+            text-decoration: none;
+            color: #999;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        #schedule .holiday {
+            background-color: #999;
+        }
+
+        #schedule .holiday a {
+            color: #343A40;
+        }
+
+        #schedule li:hover {
+            background-color: #DD3333;
+        }
+
+        #schedule ol li:hover {
+            background-color: #343a40;
+        }
+
+        #schedule ol li {
+            border: 0;
+        }
+
+        #schedule ol {
+            border: 0;
+        }
+
+        #schedule li:hover a {
+            color: white;
+        }
+
+        li {
+            padding: 0;
+        }
+
+        li a {
+            display: block;
+        }
+
+        #schedule .selected {
+            background-color: #DD3333;
+        }
+
+        #schedule .selected a {
+            color: white;
+        }
+
+        #schedule .col-1 {
+            padding: 0;
+        }
+
+        #schedule img {
+            height: 45px;
+            width: 30px;
+        }
+
+        #schedule .col-auto {
+            padding: 0;
+        }
+
+        .row .col-6 .col-2 {
+            padding: 0;
+        }
+
+        .col-6 p {
+            margin: 0;
+            font-weight: 800;
+        }
+
+        .col-6 {
+            padding: 0;
+            margin: 0;
+        }
+
+        p.gray_p {
+            color: #808080;
+            font-weight: 400;
+            font-size: 1.205rem;
+        }
+
+        #schedule .col-6 .col-10 {
+            padding: 10px 0 0 15px;
+            border: 0;
+        }
+
+        .col-6 {
+            padding: 0;
+        }
+
+        .path {
+            width: 90%;
+            height: 2px;
+            background-color: #666;
+            margin: 15px 0;
+        }
+
+        /*
+        #schedule .row {
+            padding-left: 50px;
+        }
+*/
+        button.btn {
+            border-radius: 10px;
+            background-color: #dd3333;
+            border-color: #dd3333;
+            font-size: 1.4rem;
+            padding: 10px 20px 10px 20px;
+            margin: 0 36%;
+        }
+
+        @media (max-width: 1200px) {
+            #schedule .col-10 .row:nth-child(2) {
+                padding-bottom: 10px;
+            }
+        }
+
+        @media (max-width: 930px) {
+            #schedule .col-6 .col-10 {
+                padding: 0;
+            }
+        }
+
+        @media (max-width: 840px) {
+            #schedule .row .col-10 {
+                padding: 20px 5px;
+            }
+
+            #schedule .col-6 .col-10 {
+                padding: 0 0 0 10px !important;
+            }
+
+            #schedule .col-10 .row:nth-child(2) {
+                padding-bottom: 0;
+            }
+
+            button.btn {
+                margin: 0 31%;
+            }
+        }
+
+        @media (max-width: 740px) {
+            #schedule .col-6 .col-10 {
+                padding-left: 10px;
+            }
+        }
+    </style>
+
+    <div id="schedule" class="container-lg black">
+        <div class="row">
+            <div class="col-12">
+                <h2>Расписание</h2>
+                <p>Разбито на три обучающие трёхдневки с перерывами на выходные дни. Темы лекций и мастер-классов на
+                    данный момент уточняются.</p>
+            </div>
+        </div>
+        <!--
+        <div class="row">
+            <div class="col-1">
+                <ul>
+                    <li class="holiday"><a href="#12">12</a></li>
+                    <li class="selected"><a href="#13">13</a></li>
+                    <li><a href="#14">14</a></li>
+                    <li><a href="#15">15</a></li>
+                    <li class="holiday"><a href="#16">16</a></li>
+                    <li><a href="#17">17</a></li>
+                    <li><a href="#18">18</a></li>
+                    <li><a href="#19">19</a></li>
+                    <li class="holiday"><a href="#20">20</a></li>
+                    <li><a href="#21">21</a></li>
+                    <li><a href="#22">22</a></li>
+                    <li><a href="#23">23</a></li>
+                    <li class="holiday"><a href="#24">24</a></li>
+                </ul>
+            </div>
+            <div class="col-auto">
+                <ol>
+                    <li id="t-12" class="visible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-13" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-14" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-15" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-16" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-17" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-18" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-19" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-20" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-21" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-22" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-23" class="invisible"><img src="./shape/arrow.svg"></li>
+                    <li id="t-24" class="invisible"><img src="./shape/arrow.svg"></li>
+                </ol>
+            </div>
+            <div class="col-10">
+                <div class="row">
+                    <div class="col-12">
+                        <h4>16 Июля, Четверг</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <div class="col-2 float-left">
+                            <p>08:00</p>
+                            <p>09:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Завтрак</p>
+                            <p class="gray_p">Cвободное время</p>
+                        </div>
+
+                    </div>
+                    <div class="col-6">
+                        <div class="col-2 float-left">
+                            <p>09:15</p>
+                            <p>10:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Лекция</p>
+                            <p class="gray_p">Тема уточняется</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>10:15</p>
+                            <p>11:45</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Групповая терапия</p>
+                            <p class="gray_p">Занятия в больший группах по уровням</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>12:00</p>
+                            <p>13:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Личная терапия</p>
+                            <p class="gray_p">Терапия и супервизия</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>13:00</p>
+                            <p>15:30</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Обед</p>
+                            <p class="gray_p">Свободное время</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>15:30</p>
+                            <p>16:20</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Личная терапия</p>
+                            <p class="gray_p">Терапия и супервизия</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>16:30</p>
+                            <p>18:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Групповая терапия</p>
+                            <p class="gray_p">Занятия в больший группах по уровням</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>18:00</p>
+                            <p>19:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Ужин</p>
+                            <p class="gray_p">Свободное время</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>19:00</p>
+                            <p>20:15</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Процесс-Группа</p>
+                            <p class="gray_p">Эмоциональное отреагирование</p>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="path col-auto"></div>
+                        <div class="col-2 float-left">
+                            <p>20:15</p>
+                            <p>24:00</p>
+                        </div>
+                        <div class="col-10 float-right">
+                            <p>Свободное время</p>
+                            <p class="gray_p">Мастерские, лекции, группы</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p>Дополнительно: тематические семинары, мастер-классы, утренняя зарядка, йога, медитация, поэтические и
+                    творческие вечера, соревнования и эстафеты, костры, капустниики, тематическая вечеринка и др.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button type="button" class="btn btn-danger">Скачать PDF</button>
+            </div>
+        </div>
+-->
+
+    </div>
+
+    <script type="text/javascript">
+        $(".col-1 li").on('click', function (e) {
+            var num = e.target.text;
+            $(".col-1 li").removeClass("selected");
+            e.target.parentNode.classList.add("selected");
+
+            $(".col-1 li").removeClass("visible");
+            $("#t-" + num).addClass("visible");
+
+            $(".col-auto li").addClass("invisible");
+            $("#t-" + num).removeClass("invisible");
+        });
+    </script>
+
+</body>
+
+</html>

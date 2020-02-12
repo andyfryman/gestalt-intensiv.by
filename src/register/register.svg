@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="300" width="1280">
+  <g>
+    <g opacity="1">
+      <rect fill="rgb(52,58,64)" fill-opacity="1" opacity="1" x="0" y="0" width="1280" height="300"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 115)">
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Оставьте заявку на сайте и с вами свяжутся организаторы</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 240)">
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Звоните и пишете (Viber, WhatsApp, Telegram) по номерам указанным ниже.</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(243,202,62)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M888 163L1054 163C1058.415320195952 163 1062 166.584679804048 1062 171L1062 207C1062 211.415320195952 1058.415320195952 215 1054 215L888 215C883.584679804048 215 880 211.415320195952 880 207L880 171C880 166.584679804048 883.584679804048 163 888 163Z"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(880, 163)">
+        <tspan font-size="22" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" x="48.023" y="33.5">Поехали!</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(242,242,242)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M628 165L837 165C841.4153201959521 165 845 168.584679804048 845 173L845 202C845 206.415320195952 841.4153201959521 210 837 210L628 210C623.584679804048 210 620 206.415320195952 620 202L620 173C620 168.584679804048 623.584679804048 165 628 165Z"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(635, 167)">
+        <tspan font-size="22" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(130,130,130)" x="0" y="29.5">Почта</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(242,242,242)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M368 165L577 165C581.4153201959521 165 585 168.584679804048 585 173L585 202C585 206.415320195952 581.4153201959521 210 577 210L368 210C363.584679804048 210 360 206.415320195952 360 202L360 173C360 168.584679804048 363.584679804048 165 368 165Z"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(375, 167)">
+        <tspan font-size="22" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(130,130,130)" x="0" y="29.5">Телефон</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(242,242,242)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M108 165L317 165C321.415320195952 165 325 168.584679804048 325 173L325 202C325 206.415320195952 321.415320195952 210 317 210L108 210C103.584679804048 210 100 206.415320195952 100 202L100 173C100 168.584679804048 103.584679804048 165 108 165Z"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(115, 167)">
+        <tspan font-size="22" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(130,130,130)" x="0" y="29.5">Имя</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 30)">
+        <tspan font-size="60" font-family="Helvetica Neue" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="58">Регистрация</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

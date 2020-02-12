@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="300" width="1280">
+  <g opacity="1">
+    <g opacity="1">
+      <rect fill="rgb(224,224,224)" fill-opacity="1" opacity="1" x="0" y="25" width="1280" height="250"/>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <ellipse fill="rgb(255,255,255)" fill-opacity="1" opacity="1" rx="50" ry="50" cx="177" cy="95"/>
+      </g>
+      <g opacity="1">
+        <ellipse fill="rgb(224,224,224)" fill-opacity="1" opacity="1" rx="25" ry="25" cx="177" cy="95"/>
+      </g>
+      <g opacity="1">
+        <ellipse fill="rgb(255,255,255)" fill-opacity="1" opacity="1" rx="50" ry="50" cx="310" cy="145"/>
+      </g>
+      <g opacity="1">
+        <ellipse fill="rgb(224,224,224)" fill-opacity="1" opacity="1" rx="25" ry="25" cx="310" cy="145"/>
+      </g>
+      <g opacity="1">
+        <ellipse fill="rgb(255,255,255)" fill-opacity="1" opacity="1" rx="150" ry="150" cx="1019" cy="150"/>
+      </g>
+      <g opacity="1">
+        <ellipse fill="rgb(224,224,224)" fill-opacity="1" opacity="1" rx="75" ry="75" cx="1019" cy="150"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(177, 195)">
+        <tspan font-size="25" font-family="Helvetica Neue" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(52,58,64)" x="5.749999999999432" y="24">Теория привязанности, системный семейный подход, арт-методы, гештальт-эксперименты</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(91, 130)">
+        <tspan font-size="25" font-family="Helvetica Neue" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(52,58,64)" x="39.57499999999948" y="24">Ранние нарушения отношений, травмы отвержения и пренебрежения, родительские конфликты</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(319, 65)">
+        <tspan font-size="25" font-family="Helvetica Neue" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(52,58,64)" x="0" y="24">Темы дружеских, партнёрских, любовных, семейных, сексуальных отношений</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

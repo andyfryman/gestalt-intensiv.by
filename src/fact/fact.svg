@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="618.5231505473923" width="1400">
+  <defs>
+    <ellipse id="ellipse-12" opacity="1" rx="15" ry="15" cx="283.9626789862242" cy="334.9999936560005"/>
+    <mask id="mask-13" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1400" height="618.5231505473923" fill="black"/>
+      <use xlink:href="#ellipse-12" fill="white"/>
+    </mask>
+    <path id="path-15" opacity="1" fill-rule="evenodd" d="M267 393L301 595L1033 595L1048.5 595L345.5 331L267 393Z"/>
+    <mask id="mask-16" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1400" height="618.5231505473923" fill="white"/>
+      <use xlink:href="#path-15" fill="black"/>
+    </mask>
+  </defs>
+  <g transform="translate(48.000000000000014, 0)" opacity="1">
+    <g opacity="1">
+      <rect fill="rgb(255,255,255)" fill-opacity="1" opacity="1" x="0" y="0" width="1280" height="600"/>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <rect fill="rgb(200,200,200)" fill-opacity="1" opacity="1" x="0" y="0" width="335" height="594"/>
+      </g>
+      <g opacity="1">
+        <rect fill="rgb(200,200,200)" fill-opacity="1" opacity="1" x="335" y="0" width="945" height="589"/>
+      </g>
+      <g opacity="1">
+        <g opacity="1">
+          <g>
+            <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M171 533.9485473632812L171 527.9485473632812L187 527.9485473632812L187 533.9485473632812L197 533.9485473632812L197 546.9485473632812L161 546.9485473632812L161 533.9485473632812L171 533.9485473632812Z"/>
+          </g>
+          <g>
+            <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M-48 546.9485473632812C-48 544.18896484375 -45.75957489013672 541.9485473632812 -43 541.9485473632812L47 541.9485473632812C49.75957489013672 541.9485473632812 52 544.18896484375 52 546.9485473632812C52 549.7081298828125 49.75957489013672 551.9485473632812 47 551.9485473632812L-43 551.9485473632812C-45.75957489013672 551.9485473632812 -48 549.7081298828125 -48 546.9485473632812ZM62 546.9485473632812C62 544.18896484375 64.24042510986328 541.9485473632812 67 541.9485473632812L207 541.9485473632812C209.75958251953125 541.9485473632812 212 544.18896484375 212 546.9485473632812C212 549.7081298828125 209.75958251953125 551.9485473632812 207 551.9485473632812L67 551.9485473632812C64.24042510986328 551.9485473632812 62 549.7081298828125 62 546.9485473632812Z"/>
+          </g>
+        </g>
+        <g opacity="1">
+          <g opacity="1">
+            <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="76" cy="394.948564261231"/>
+          </g>
+          <g opacity="1">
+            <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="126" cy="509.9485642612309"/>
+          </g>
+          <g opacity="1">
+            <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="199" cy="310.9485642612309"/>
+          </g>
+          <g>
+            <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M129.09597778320312 509.6702880859375L75 388.16876220703125L78.65418243408203 386.54180908203125L132.75015258789062 508.0433654785156L129.09597778320312 509.6702880859375ZM123.09597778320312 517.6702880859375L69 396.16876220703125L72.65418243408203 394.54180908203125L126.75015258789062 516.0433349609375L123.09597778320312 517.6702880859375Z"/>
+          </g>
+          <g transform="translate(133.10325622558594, 354.7245788574219) rotate(80.00002860513337) translate(-133.10325622558594, -354.7245788574219)">
+            <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M161.32415771484375 412.288818359375L107.22817993164062 290.78729248046875L110.88236236572266 289.16033935546875L164.97833251953125 410.6618957519531L161.32415771484375 412.288818359375ZM155.32415771484375 420.288818359375L101.22817993164062 298.78729248046875L104.88236236572266 297.16033935546875L158.97833251953125 418.6618957519531L155.32415771484375 420.288818359375Z"/>
+          </g>
+          <g opacity="1">
+            <rect fill="rgb(34,34,34)" fill-opacity="1" opacity="1" x="119" y="522.948564261231" width="14" height="24"/>
+          </g>
+        </g>
+        <g transform="translate(260.74403381347656, 305.2813415527344) rotate(2.0000007151283343) translate(-260.74403381347656, -305.2813415527344)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#ellipse-12" fill-opacity="0" stroke="rgb(34,34,34)" stroke-opacity="1" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-13)"/>
+          </g>
+          <g>
+            <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M208.96267700195312 276.9254455566406L243.43467712402344 248L274.8380432128906 285.425048828125L320.525390625 307.1531677246094L249.60440063476562 362.56268310546875L239.6894073486328 313.54412841796875L227.70570373535156 299.26251220703125L209.96170043945312 314.1515197753906L200.96267700195312 303.4269104003906L218.70669555664062 288.53790283203125L208.96267700195312 276.9254455566406Z"/>
+          </g>
+        </g>
+      </g>
+      <g opacity="1">
+        <use xlink:href="#path-15" fill="rgb(243,202,62)" fill-opacity="1"/>
+        <use xlink:href="#path-15" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-16)"/>
+      </g>
+      <g opacity="1">
+        <rect fill="rgb(255,255,255)" fill-opacity="1" opacity="1" x="1028" y="595" width="324" height="5"/>
+      </g>
+      <g opacity="1">
+        <rect fill="rgb(255,255,255)" fill-opacity="1" opacity="1" x="0" y="595" width="305" height="5"/>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 151)">
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="0">Люди </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="58.2">разного </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="139.12">возраста </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="230.42000000000002">и </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="247.3">разных </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="321.30000000000007">профессий</tspan>
+        </text>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 106)">
+          <tspan font-size="35" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="34">150+ Участников</tspan>
+        </text>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 472)">
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="0">Праведные </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="111.82">райские </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="194.62">терапевты </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="298.74000000000007">для </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="338.06000000000006">невинных </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="434.6000000000001">клиентов</tspan>
+        </text>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 427)">
+          <tspan font-size="35" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="34">77 Девственниц :)</tspan>
+        </text>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 368)">
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="0">С </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="20">использованием </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="182.20000000000002">арт-, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="232.96">системной </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="339.08">семейной, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="441.5">телесной </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="533.8">терапии, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="621.16">МАК </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="670.4399999999999">и </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="687.3199999999999">др. </tspan>
+        </text>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 323)">
+          <tspan font-size="35" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="34">40+ Мастер-Классов</tspan>
+        </text>
+      </g>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 256)">
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="0">Беларусь, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="100.63999999999999">Россия, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="179.72">Украина, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="269.44">Литва, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="336.74">Латвия, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="414.76000000000005">Польша, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="499.6600000000001">Казахстан, </tspan>
+          <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="19" dx="608.0200000000001">Болгария</tspan>
+        </text>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(408, 211)">
+          <tspan font-size="35" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(34,34,34)" x="0" y="34">8 Стран</tspan>
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

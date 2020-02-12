@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="595" width="1500">
+  <defs>
+    <ellipse id="ellipse-12" opacity="1" rx="15" ry="15" cx="283.9626789862242" cy="334.9999936560005"/>
+    <mask id="mask-13" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1347" height="618.5231505473922" fill="black"/>
+      <use xlink:href="#ellipse-12" fill="white"/>
+    </mask>
+    <path id="path-15" opacity="1" fill-rule="evenodd" d="M267 393L301 595L1033 595L1048.5 595L345.5 331L267 393Z"/>
+    <mask id="mask-16" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1347" height="618.5231505473922" fill="white"/>
+      <use xlink:href="#path-15" fill="black"/>
+    </mask>
+  </defs>
+  <g>
+    <g opacity="1">
+      <rect fill="rgb(200,200,200)" fill-opacity="0" opacity="1" x="0" y="0" width="1280" height="595"/>
+    </g>
+    <g opacity="1">
+      <rect fill="rgb(255,255,255)" fill-opacity="1" opacity="1" x="0" y="590" width="298" height="5"/>
+    </g>
+    <g opacity="1">
+      <rect fill="rgb(255,255,255)" fill-opacity="1" opacity="1" x="1049" y="590" width="451" height="5"/>
+    </g>
+    <g opacity="1">
+      <g opacity="1">
+        <g>
+          <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M171 533.9485473632812L171 527.9485473632812L187 527.9485473632812L187 533.9485473632812L197 533.9485473632812L197 546.9485473632812L161 546.9485473632812L161 533.9485473632812L171 533.9485473632812Z"/>
+        </g>
+        <g>
+          <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M0 552L0 541.9485473632812L46.974281311035156 541.9485473632812C49.749908447265625 541.9485473632812 52 544.1986083984375 52 546.9742431640625C52 549.7498779296875 49.749908447265625 552 46.974281311035156 552L0 552ZM62 546.9485473632812C62 544.18896484375 64.24042510986328 541.9485473632812 67 541.9485473632812L207 541.9485473632812C209.75958251953125 541.9485473632812 212 544.18896484375 212 546.9485473632812C212 549.7081298828125 209.75958251953125 551.9485473632812 207 551.9485473632812L67 551.9485473632812C64.24042510986328 551.9485473632812 62 549.7081298828125 62 546.9485473632812Z"/>
+        </g>
+      </g>
+      <g opacity="1">
+        <g opacity="1">
+          <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="76" cy="394.948564261231"/>
+        </g>
+        <g opacity="1">
+          <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="126" cy="509.9485642612309"/>
+        </g>
+        <g opacity="1">
+          <ellipse fill="rgb(34,34,34)" fill-opacity="1" opacity="1" rx="18" ry="18" cx="199" cy="310.9485642612309"/>
+        </g>
+        <g>
+          <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M129.09597778320312 509.6702880859375L75 388.16876220703125L78.65418243408203 386.54180908203125L132.75015258789062 508.0433654785156L129.09597778320312 509.6702880859375ZM123.09597778320312 517.6702880859375L69 396.16876220703125L72.65418243408203 394.54180908203125L126.75015258789062 516.0433349609375L123.09597778320312 517.6702880859375Z"/>
+        </g>
+        <g transform="translate(133.10325622558594, 354.7245788574219) rotate(80.00002860513337) translate(-133.10325622558594, -354.7245788574219)">
+          <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M161.32415771484375 412.288818359375L107.22817993164062 290.78729248046875L110.88236236572266 289.16033935546875L164.97833251953125 410.6618957519531L161.32415771484375 412.288818359375ZM155.32415771484375 420.288818359375L101.22817993164062 298.78729248046875L104.88236236572266 297.16033935546875L158.97833251953125 418.6618957519531L155.32415771484375 420.288818359375Z"/>
+        </g>
+        <g opacity="1">
+          <rect fill="rgb(34,34,34)" fill-opacity="1" opacity="1" x="119" y="522.948564261231" width="14" height="24"/>
+        </g>
+      </g>
+      <g transform="translate(260.74403381347656, 305.2813415527344) rotate(2.0000007151283343) translate(-260.74403381347656, -305.2813415527344)" opacity="1">
+        <g opacity="1">
+          <use xlink:href="#ellipse-12" fill-opacity="0" stroke="rgb(34,34,34)" stroke-opacity="1" stroke-width="8" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-13)"/>
+        </g>
+        <g>
+          <path fill="rgb(34,34,34)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M208.96267700195312 276.9254455566406L243.43467712402344 248L274.8380432128906 285.425048828125L320.525390625 307.1531677246094L249.60440063476562 362.56268310546875L239.6894073486328 313.54412841796875L227.70570373535156 299.26251220703125L209.96170043945312 314.1515197753906L200.96267700195312 303.4269104003906L218.70669555664062 288.53790283203125L208.96267700195312 276.9254455566406Z"/>
+        </g>
+      </g>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#path-15" fill="rgb(243,202,62)" fill-opacity="1"/>
+      <use xlink:href="#path-15" fill-opacity="0" stroke="rgb(255,255,255)" stroke-opacity="1" stroke-width="10" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-16)"/>
+    </g>
+  </g>
+</svg>

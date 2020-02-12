@@ -1,0 +1,478 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="970" width="1280">
+  <defs>
+    <path id="path-3" opacity="1" fill-rule="evenodd" d="M30 180L30 0L1034 0L1034 585L30 585L30 225L0 202.22891235351562L30 180Z"/>
+    <rect id="rect-4" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-5" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-540">
+      <rect opacity="1" x="0" y="-540" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-4" fill="white"/>
+    </mask>
+    <rect id="rect-6" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-7" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-495">
+      <rect opacity="1" x="0" y="-495" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-6" fill="white"/>
+    </mask>
+    <rect id="rect-8" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-9" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-450">
+      <rect opacity="1" x="0" y="-450" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-8" fill="white"/>
+    </mask>
+    <rect id="rect-10" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-11" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-405">
+      <rect opacity="1" x="0" y="-405" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-10" fill="white"/>
+    </mask>
+    <rect id="rect-12" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-13" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-360">
+      <rect opacity="1" x="0" y="-360" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-12" fill="white"/>
+    </mask>
+    <rect id="rect-14" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-15" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-315">
+      <rect opacity="1" x="0" y="-315" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-14" fill="white"/>
+    </mask>
+    <rect id="rect-16" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-17" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-270">
+      <rect opacity="1" x="0" y="-270" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-16" fill="white"/>
+    </mask>
+    <rect id="rect-18" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-19" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-225">
+      <rect opacity="1" x="0" y="-225" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-18" fill="white"/>
+    </mask>
+    <rect id="rect-20" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-21" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-180">
+      <rect opacity="1" x="0" y="-180" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-20" fill="white"/>
+    </mask>
+    <rect id="rect-22" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-23" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-135">
+      <rect opacity="1" x="0" y="-135" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-22" fill="white"/>
+    </mask>
+    <rect id="rect-24" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-25" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-90">
+      <rect opacity="1" x="0" y="-90" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-24" fill="white"/>
+    </mask>
+    <rect id="rect-26" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-27" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="-45">
+      <rect opacity="1" x="0" y="-45" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-26" fill="white"/>
+    </mask>
+    <rect id="rect-28" opacity="1" x="0" y="0" width="45" height="45"/>
+    <mask id="mask-29" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="1280" height="970" fill="black"/>
+      <use xlink:href="#rect-28" fill="white"/>
+    </mask>
+  </defs>
+  <g opacity="1">
+    <g opacity="1">
+      <path fill="rgb(52,58,64)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M0 0L1280 0L1280 970L0 970L0 299.198378244574L0 0Z"/>
+    </g>
+    <g opacity="1">
+      <path fill="rgb(221,51,51)" fill-opacity="1" opacity="1" fill-rule="evenodd" d="M558 876L722 876C726.4153201959521 876 730 879.584679804048 730 884L730 920C730 924.415320195952 726.4153201959521 928 722 928L558 928C553.584679804048 928 550 924.415320195952 550 920L550 884C550 879.584679804048 553.584679804048 876 558 876Z"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(550, 879.5)">
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="500" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="27.789999999999992" y="30.5">Скачать PDF</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 791)">
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Дополнительно: тематические семинары, мастер-классы, утренняя зарядка, йога, медитация, поэтические и </tspan>
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="42">творческие вечера, соревнования и эстафеты, костры, капустниики, тематическая вечеринка и др.</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <g transform="translate(155, 169)" opacity="1">
+        <g>
+          <use xlink:href="#path-3" fill="rgb(52,58,64)" fill-opacity="1"/>
+          <use xlink:href="#path-3" fill-opacity="0" stroke="rgb(102,102,102)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter"/>
+        </g>
+      </g>
+      <g transform="translate(100, 169)" opacity="1">
+        <g transform="translate(0, 540)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-4" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-5)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">24</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 495)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-6" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-7)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">23</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 450)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-8" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-9)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">22</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 405)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-10" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-11)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">21</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 360)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-12" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-13)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">20</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 315)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-14" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-15)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">19</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 270)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-16" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-17)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">18</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 225)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-18" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-19)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">17</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 180)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-20" fill="rgb(221,51,51)" fill-opacity="1"/>
+            <use xlink:href="#rect-20" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-21)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">16</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 135)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-22" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-23)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">15</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 90)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-24" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-25)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">14</tspan>
+            </text>
+          </g>
+        </g>
+        <g transform="translate(0, 45)" opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-26" fill="rgb(153,153,153)" fill-opacity="1"/>
+            <use xlink:href="#rect-26" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-27)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">13</tspan>
+            </text>
+          </g>
+        </g>
+        <g opacity="1">
+          <g opacity="1">
+            <use xlink:href="#rect-28" fill-opacity="0" stroke="rgb(153,153,153)" stroke-opacity="1" stroke-width="2" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-29)"/>
+          </g>
+          <g opacity="1">
+            <text font-size="0" transform="translate(9.5, 8)">
+              <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(153,153,153)" x="0" y="24">12</tspan>
+            </text>
+          </g>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(10, 188)">
+            <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="24">16</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(10, 53)">
+            <tspan font-size="25" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(52,58,64)" x="0" y="24">13</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(705, 654)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19">Мастерские,</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Свободно</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">20:15</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">24:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(705, 554)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19">Эмоциональн</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Процесс-</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">19:00</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">20:15</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(705, 454)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Свободное </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="110.42">в</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Ужин</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">18:00</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">19:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(705, 354)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Занятия </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="82.6">в </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="98.96">б</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Группова</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">16:30</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">18:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(705, 254)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Терапия </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="83.42">и </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="100.30000000000001">с</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Личная Т</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">15:30</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">16:20</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(225, 654)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Свободное </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="110.42">в</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Обед</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">13:00</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">15:30</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(225, 554)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Descript</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="83.42">io</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="100.30000000000001">n</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Личная Т</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">12:00</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">13:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(225, 454)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Занятия </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="82.6">в </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="98.96">б</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Группова</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">10:15</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">11:45</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(225, 354)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Тема </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="52.28">уточня</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Лекция</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">09:15</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">10:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g transform="translate(225, 254)" opacity="1">
+        <g opacity="1">
+          <path fill-opacity="0" stroke="rgb(128,128,128)" stroke-opacity="1" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" opacity="1" fill-rule="evenodd" d="M-5.773159728050814e-15 75L450 75"/>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 30)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="0">Свободное </tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(128,128,128)" x="0" y="19" dx="110.42">в</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(75, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Завтрак</tspan>
+          </text>
+        </g>
+        <g opacity="1">
+          <text font-size="0" transform="translate(0, 8)">
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">08:00</tspan>
+            <tspan font-size="20" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="43" dx="0">09:00</tspan>
+          </text>
+        </g>
+      </g>
+      <g opacity="1">
+        <text font-size="0" transform="translate(225, 194)">
+          <tspan font-size="35" font-family="Helvetica Neue" font-weight="900" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="34">16 Июля, Четверг</tspan>
+        </text>
+      </g>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 115)">
+        <tspan font-size="20" font-family="Helvetica Neue" font-weight="400" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="19">Разбито на три обучающие трёхдневки с перерывами на выходные дни</tspan>
+      </text>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(100, 30)">
+        <tspan font-size="60" font-family="Helvetica Neue" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(255,255,255)" x="0" y="58">Расписание</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

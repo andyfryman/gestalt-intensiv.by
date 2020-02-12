@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./../style.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            background-color: magenta;
+        }
+    </style>
+</head>
+
+<body>
+
+    <style>
+        #header {
+            height: 100vh;
+            width: 100%;
+            margin: 0px !important;
+        }
+
+        #header h1 {
+            text-align: center;
+        }
+
+        #fact {
+            backdrop-filter: grayscale(1);
+        }
+
+        #count {
+            color: #FECA16;
+            background-color: #333333;
+            border-radius: 2px;
+            letter-spacing: 2px;
+            padding: 5px;
+        }
+
+        .bg-sun {
+            background-color: #fec935;
+            background-image: url(./shape/sun.svg);
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            background-size: 1000px;
+        }
+
+        .col-vh-10 {
+            height: 10vh;
+            text-transform: uppercase;
+        }
+
+        .col-vh-20 {
+            height: 20vh;
+        }
+
+        .container-fluid {
+            height: 100%;
+        }
+
+        @media (min-width: 768px) {
+            .bg-lamp {
+                background-image: url(./shape/lamp.svg);
+                background-size: 100%;
+                background-position: bottom left;
+                background-repeat: no-repeat;
+                /*background-size: contain;*/
+            }
+        }
+
+        @media (min-width: 1500px) {
+            .bg-lamp {
+                background-image: none;
+                border-bottom: 5px solid #FFF;
+            }
+        }
+    </style>
+
+    <div class="container-fluid bg-sun">
+
+        <div id="header" class="row">
+            <div class="col-12 col-vh-20 d-flex align-items-center justify-content-center">
+                <h2>Интенсив</h2>
+            </div>
+            <div class="col-12 col-vh-20 d-flex justify-content-center">
+                <img class="mr-4 d-none d-lg-inline" width="100px" height="100px" src="./shape/logo.svg">
+                <h1 class="font-bold">Искусство быть с Другим</h1>
+            </div>
+            <div class="col-12 col-vh-20 d-flex align-items-center justify-content-center">
+                <h2 class="huge">2020</h2>
+            </div>
+            <div class="col-12 col-vh-20 d-flex align-items-center justify-content-center">
+                <h4 class="dark">
+                    <span>До Старта</span>
+                    <span id="count">?</span>
+                    <span id="day">Дней</span>
+                </h4>
+            </div>
+            <div class="col-12 col-vh-10 d-flex align-items-center justify-content-center">
+                <h5 class="">Гомель, Беларусь</h5>
+            </div>
+            <div class="col-12 col-vh-10 d-flex justify-content-center">
+                <h5>Июль 12 - 24</h5>
+            </div>
+        </div>
+
+        <div id="fact" class="row pb-4 pt-5 bg-lamp">
+            <div class="col-4 d-none d-md-block"></div>
+            <div class="col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <h4 class="dark">150+ Участников</h4>
+                        <p>Люди разного возраста и разных профессий</p>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="dark">8 Стран</h4>
+                        <p>Беларусь, Россия, Украина, Литва, Латвия, Польша, Казахстан, Болгария</p>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="dark">40+ Мастер-Классов</h4>
+                        <p>С использованием арт-, системной семейной, телесной терапии, МАК и др.</p>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="dark">77 Девственниц :)</h4>
+                        <p>Праведные райские терапевты для невинных клиентов</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        const start = new Date(2020, 7, 12);
+        const days = Math.ceil((start - new Date()) / (1000 * 60 * 60 * 24));
+        const dayForm = (number) => {
+            switch (number) {
+                case 1: return 'День';
+                case 2:
+                case 3:
+                case 4: return 'Дня';
+                case 5:
+                case 6:
+                case 7:
+                case 8:
+                case 9:
+                case 0:
+                case 11:
+                case 12:
+                case 13:
+                case 14: return 'Дней';
+                default: return null;
+            }
+        };
+        const form = dayForm(days) || dayForm(days % 10);
+        $("#count")[0].innerHTML = days;
+        $("#day")[0].innerHTML = form;
+    </script>
+
+</body>
+
+</html>
