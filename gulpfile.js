@@ -127,7 +127,7 @@ gulp.task('index', function (cb) {
     gulp.src('./src/residence/residence/*')
         .pipe(gulp.dest('./docs/residence/'));
 
-    gulp.src('./srcc/article/shape/*')
+    gulp.src('./src/article/shape/*')
         .pipe(gulp.dest('./docs/shape/'));
 
     gulp.src('./src/schedule/shape/*')
