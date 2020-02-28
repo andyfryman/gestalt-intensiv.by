@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+
 body {
-    font-family: "Helvetica Neue";
+    font-family: "Helvetica Neue", "Open Sans", sans-serif;
     color: #262626;
 }
 
 h2 {
-    font-family: "HelveticaNeue-CondensedBold", "Helvetica Neue", sans-serif;
+    font-family: "HelveticaNeue-CondensedBold", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h3, h5 {
-    font-family: "HelveticaNeue-CondensedBold", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
-    font-weight:600; font-stretch:condensed;
+    font-family: "HelveticaNeue-CondensedBold", "Open Sans", "HelveticaNeueBoldCondensed", "HelveticaNeue-Bold-Condensed", "Helvetica Neue Bold Condensed", "HelveticaNeueBold", "HelveticaNeue-Bold", "Helvetica Neue Bold", "HelveticaNeue", "Helvetica Neue", 'TeXGyreHerosCnBold', "Helvetica", "Tahoma", "Geneva", "Arial Narrow", "Arial", sans-serif;
+    font-weight: 600;
+    font-stretch: condensed;
 }
 
 h3 {
@@ -19,7 +22,7 @@ h3 {
 
 h4 {
     color: #343A40;
-    font-family: "HelveticaNeue-CondensedBlack", "Helvetica Neue", sans-serif;
+    font-family: "HelveticaNeue-CondensedBlack", "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 h4.dark {
@@ -48,13 +51,13 @@ h5 {
 }
 
 .font-regular {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', "Open Sans", Helvetica, Arial, sans-serif;
     font-stretch: condensed;
     font-weight: 900;
 }
 
 .font-black {
-    font-family: 'HelveticaNeue-CondensedBlack', 'Helvetica Neue', Helvetica, Arial, sans-serif
+    font-family: 'HelveticaNeue-CondensedBlack', "Open Sans", 'Helvetica Neue', Helvetica, Arial, sans-serif
 }
 
 .container-lg {
