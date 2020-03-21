@@ -212,6 +212,9 @@ gulp.task('index', function (cb) {
     gulp.src('./src/favicon/icon/*')
         .pipe(gulp.dest('./docs/'));
 
+    gulp.src('./src/schedule/pdf/*')
+        .pipe(gulp.dest('./docs/pdf/'));
+
     cb();
 });
 
