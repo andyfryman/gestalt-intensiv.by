@@ -92,20 +92,20 @@
                 <h1 class="font-bold">Искусство быть с Другим</h1>
             </div>
             <div class="col-12 col-vh-20 d-flex align-items-center justify-content-center">
-                <h2 class="huge">2020</h2>
+                <h2 class="huge">2021</h2>
             </div>
             <div class="col-12 col-vh-20 d-flex align-items-center justify-content-center">
-                <h4 class="dark">
+                <h4 id="counter" class="dark">
                     <span>До Старта</span>
                     <span id="count">?</span>
                     <span id="day">Дней</span>
                 </h4>
             </div>
             <div class="col-12 col-vh-10 d-flex align-items-center justify-content-center">
-                <h5 class="">Гомель, Беларусь</h5>
+                <h5 class="">Речица, Беларусь</h5>
             </div>
             <div class="col-12 col-vh-10 d-flex justify-content-center">
-                <h5>Июль 12 - 24</h5>
+                <h5>Июль 15 - 27</h5>
             </div>
         </div>
 
@@ -135,7 +135,7 @@
     </div>
 
     <script type="text/javascript">
-        const start = new Date(2020, 6, 12);
+        const start = new Date(2021, 6, 15);
         const days = Math.ceil((start - new Date()) / (1000 * 60 * 60 * 24));
         const dayForm = (number) => {
             switch (number) {
@@ -156,9 +156,13 @@
                 default: return null;
             }
         };
-        const form = dayForm(days) || dayForm(days % 10);
-        $("#count")[0].innerHTML = days;
-        $("#day")[0].innerHTML = form;
+        if (days > 0) {
+            const form = dayForm(days) || dayForm(days % 10);
+            $("#count")[0].innerHTML = days;
+            $("#day")[0].innerHTML = form;
+        } else {
+            $("#counter").hide();
+        }
     </script>
 
 </body>
