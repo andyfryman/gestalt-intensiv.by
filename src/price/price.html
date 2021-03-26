@@ -74,7 +74,7 @@
             </div>
         </div>
         <div class="row justify-content-around">
-            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-lg-block ticket" data-date="2021-02-15">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2021-02-15">
                 <a href="#register">
                     <p class="cost font-regular font-black">250$</p>
                     <p class="currency">в бел. рублях</p>
@@ -83,7 +83,7 @@
                     <p class="date font-regular font-black">До 15.02</p>
                 </a>
             </div>
-            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-md-block ticket" data-date="2021-04-15">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2021-04-15">
                 <a href="#register">
                     <p class="cost font-regular font-black">275$</p>
                     <p class="currency">в бел. рублях</p>
@@ -101,7 +101,7 @@
                     <p class="date font-regular font-black">До 01.06</p>
                 </a>
             </div>
-            <div class="col-5 col-sm-4 col-md-3 col-lg-2 d-none d-sm-block ticket" data-date="2021-07-15">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2021-07-15">
                 <a href="#register">
                     <p class="cost font-regular font-black">325$</p>
                     <p class="currency">в бел. рублях</p>
@@ -110,7 +110,7 @@
                     <p class="date font-regular font-black">До 15.07</p>
                 </a>
             </div>
-            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2021-07-15">
+            <div class="col-5 col-sm-4 col-md-3 col-lg-2 ticket" data-date="2021-07-27">
                 <a href="#register">
                     <p class="cost font-regular font-black">350$</p>
                     <p class="currency">в бел. рублях</p>
@@ -128,6 +128,7 @@
     </div>
 
     <script type="text/javascript">
+        // mark as sold
         $(".ticket[data-date]")
             .filter(function () {
                 var data = $(this).data("date");
