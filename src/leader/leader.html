@@ -82,11 +82,10 @@
                     <img src="./leader/18.jpeg" class="alt" alt="Анастасия Гонта">
                     <img src="./leader/11.jpeg" class="alt" alt="Александр Тымонюк">
                     <img src="./leader/15.jpeg" class="alt" alt="Татьяна Староселец">
-                    <img src="./leader/31.jpeg" class="alt" alt="Натилия Бабич">
+                    <img src="./leader/31.jpeg" class="alt" alt="Наталия Бабич">
                     <img src="./leader/17.jpeg" class="alt" alt="Сергей Жеребцов">
                     <img src="./leader/41.jpeg" class="alt" alt="Ирина Лыбко">
                     <img src="./leader/39.jpeg" class="alt" alt="Юлия Солодуха">
-                    <img src="./leader/22.jpeg" class="alt" alt="Татьяна Тютюнова">
                     <img src="./leader/26.jpeg" class="alt" alt="Константин Петров">
                     <img src="./leader/42.jpeg" class="alt" alt="Марина Кончиц">
                     <img src="./leader/33.jpeg" class="alt" alt="Тина Уласевич">
@@ -97,14 +96,14 @@
                     <img src="./leader/37.jpeg" class="alt" alt="Алёна Лукашевич">
                     <img src="./leader/38.jpeg" class="alt" alt="Вита Медведева">
                     <img src="./leader/43.jpeg" class="alt" alt="Елена Сивец">
-                    <img src="./leader/46.jpeg" class="alt" alt="Дремук Татьяна">
-                    <img src="./leader/47.jpeg" class="alt" alt="Петров Сергей">
-                    <img src="./leader/50.jpeg" class="alt" alt="Чудук Татьяна">
-                    <img src="./leader/51.jpeg" class="alt" alt="Белоцерковец Алексей">
-                    <img src="./leader/52.jpeg" class="alt" alt="Раханский Юрий">
-                    <img src="./leader/53.jpeg" class="alt" alt="Лайша Дмитрий">
-                    <img src="./leader/54.jpeg" class="alt" alt="Синичкина-Петрова Марьяна">
-                    <img src="./leader/55.jpeg" class="alt" alt="Сахончик Виолетта">
+                    <img src="./leader/46.jpeg" class="alt" alt="Татьяна Дремук">
+                    <img src="./leader/47.jpeg" class="alt" alt="Сергей Петров">
+                    <img src="./leader/50.jpeg" class="alt" alt="Татьяна Чудук">
+                    <img src="./leader/51.jpeg" class="alt" alt="Алексей Белоцерковец">
+                    <img src="./leader/52.jpeg" class="alt" alt="Юрий Раханский">
+                    <img src="./leader/53.jpeg" class="alt" alt="Дмитрий Лайша">
+                    <img src="./leader/54.jpeg" class="alt" alt="Марьяна Синичкина-Петрова">
+                    <img src="./leader/55.jpeg" class="alt" alt="Виолетта Сахончик">
                 </div>
             </div>
         </div>
@@ -158,6 +157,17 @@
         $(".alt").wrap('<div class="alt-wrap"/>');
         $(".alt").each(function () {
             $(this).after('<p class="alt font-bold">' + $(this).attr('alt') + '</p>');
+        });
+        
+        var selector = 'img[src="./leader/52.jpeg"]'
+        var counter = 9
+        $(selector).click(function () {
+            counter--;
+        })
+        $(selector).hover(function () {
+            if (counter < 0) {
+                $(this).attr('src', './leader/69.jpeg');
+            }
         });
     </script>
 
